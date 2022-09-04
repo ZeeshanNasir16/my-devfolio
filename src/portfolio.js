@@ -3,10 +3,10 @@
 export const greetings = {
   name: 'Zeeshan Nasir',
   title: "Hi, I'm",
-  role: 'Creative Front-End Web Developer',
+  role: 'MERN Developer',
   info: 'I transforms the UI designs into high-quality code and develop responsive, optimized and efficient websites',
   description: [
-    "I'm Zeeshan Nasir, a detail-oriented and creative front-end developer who worked well in a team or independently to applications primarliy developed using React JS. I like to create or transform the UI's or wireframes into functional & responsive site.",
+    "I'm Zeeshan Nasir, a detail-oriented and creative full-stack developer who worked well in a team or independently to applications primarliy developed using MERN. I like to create or transform the UI's or wireframes into functional & responsive site as well as built scalable web applications",
     'Seeking a position in a firm where i can utilize my knowledge and skills, that not only makes contribution to the firm but also lead to the enhancement of my current skillset and to get better exposure to the field.',
   ],
   profileImg: 'https://avatars.githubusercontent.com/u/57254223?v=4',
