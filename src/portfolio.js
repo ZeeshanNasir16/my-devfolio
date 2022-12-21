@@ -98,13 +98,6 @@ export const experience = [
       'Troubleshoot, debug and upgrade an application',
     ],
   },
-  {
-    role: 'Dot Net Developer',
-    company: 'Histone Solutions',
-    // companylogo: '/img/icons/common/github.svg',
-    date: 'Dec 2019 – May 2020',
-    descBullets: [],
-  },
 ];
 
 export const projects = {
