@@ -24,7 +24,7 @@ export const socialLinks = {
   github: 'https://github.com/zeeshannasir16',
   linkedin: 'https://www.linkedin.com/in/zeeshannasir16',
   resume:
-    process.env.RESUME_LINK,
+    'https://drive.google.com/file/d/19faJSfAbsidlZPkfNFi7LBc5aq4aTXkl/view?usp=share_link',
 };
 
 export const skillSet = [
