@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
+  --dark-gray-color: #666666;
   --white-color: #ffffff;
   --shadow-lightbg: rgba(0, 0, 0, 0.08);
   --back-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
@@ -27,6 +28,7 @@ const GlobalStyle = createGlobalStyle`
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  WebkitOverflowScrolling: 'touch',
 }
 
 body {

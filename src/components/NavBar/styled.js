@@ -157,6 +157,9 @@ export const MobileMenu = styled.div`
     ${(props) => props.theme.maxWidth(props.theme.breakpoints.md)} {
       display: flex;
     }
+    ${(props) => props.theme.maxWidth('500px')} {
+      width: 100%;
+    }
   }
 
   ${(props) => props.theme.maxWidth(props.theme.breakpoints.md)} {

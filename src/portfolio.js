@@ -29,27 +29,29 @@ export const socialLinks = {
 
 export const skillSet = [
   {
-    skillName: 'HTML5',
-    fontAwesomeClassname: 'vscode-icons:file-type-html',
+    skillName: 'Reactjs',
+    fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
   },
   {
-    skillName: 'CSS3',
-    fontAwesomeClassname: 'vscode-icons:file-type-css',
+    skillName: 'Nodejs',
+    fontAwesomeClassname: 'logos:nodejs-icon',
+  },
+  {
+    skillName: 'ExpressJS',
+    fontAwesomeClassname: 'logos:express',
+  },
+  {
+    skillName: 'MongoDB',
+    fontAwesomeClassname: 'logos:mongodb',
   },
   {
     skillName: 'JavaScript',
     fontAwesomeClassname: 'logos:javascript',
   },
   {
-    skillName: 'Reactjs',
-    fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+    skillName: 'TypeScript',
+    fontAwesomeClassname: 'logos:typescript-icon',
   },
-
-  {
-    skillName: 'Material UI',
-    fontAwesomeClassname: 'simple-icons:mui',
-  },
-
   {
     skillName: 'Firebase',
     fontAwesomeClassname: 'logos:firebase',
@@ -62,14 +64,18 @@ export const skillSet = [
     skillName: 'Redux Toolkit',
     fontAwesomeClassname: 'logos:redux',
   },
-  // {
-  //   skillName: 'Next JS',
-  //   fontAwesomeClassname: 'logos:nextjs-icon',
-  // },
-  // {
-  //   skillName: 'Nodejs',
-  //   fontAwesomeClassname: 'logos:nodejs-icon',
-  // },
+  {
+    skillName: 'Material UI',
+    fontAwesomeClassname: 'simple-icons:mui',
+  },
+  {
+    skillName: 'HTML5',
+    fontAwesomeClassname: 'vscode-icons:file-type-html',
+  },
+  {
+    skillName: 'CSS3',
+    fontAwesomeClassname: 'vscode-icons:file-type-css',
+  },
 ];
 
 export const experience = [
@@ -79,18 +85,14 @@ export const experience = [
     // companylogo: '/img/icons/common/google.svg',
     date: 'Jul 2021 – Present',
     descBullets: [
-      // 'Developing new user-features using React.js',
       'Writing application interface codes using JavaScript following react.js workflows',
       'Developing and implementing highly-responsive user interface components using React concepts as well as translating designs to interactive, pixel perfect and responsive sites',
-
-      // 'Worked on serveral projects as front-end developer.',
-      // "Developed UI's of various projects from the mockups or the UI design file provided alongwith fetching data through api and managing it in frontend codebase.",
     ],
   },
   {
-    role: 'Software Developer',
+    role: 'Software Developer (.NET Developer)',
     company: 'InterwebBytes ',
-    // companylogo: '/img/icons/common/github.svg',
+
     date: 'Sep 2020 – Feb 2021',
     descBullets: [
       'Writing clean, functional code on the front- and back-end',
@@ -158,14 +160,30 @@ export const projects = {
   ],
   personal: [
     {
+      name: 'Task Management App (MERN)',
+      desc: 'Kanban application in which project manager create and assigns task to individuals. The User then change the status of task through Kanban Board',
+      repoLink: 'https://github.com/ZeeshanNasir16/task-mgt-app-frontend',
+      techList: [
+        'React JS',
+        'TypeScript',
+        'NodeJs',
+        'ExpressJS',
+        'MongoDB',
+        'Redux-Toolkit',
+        'Joi',
+        'Material-UI',
+        'Axios',
+      ],
+    },
+    {
       name: 'box Cloud Storage - Clone',
       desc: 'Simple cloud storage clone built using React JS and Firebase.',
       repoLink: 'https://github.com/ZeeshanNasir16/Cloud-Storage',
       techList: ['React JS', 'Firebase', 'Material-UI', 'Axios'],
     },
     {
-      name: 'Ecommerce App',
-      desc: "Basic ecommerce application using which the user can manage the items in a cart and can purchase an item. The Commerce.js provides custom cart and checkout experiences with the integration of various third-party API's. The internal state of application is managed using react-redux.",
+      name: 'Shopping Cart App',
+      desc: 'Application using which the user can view and can purchase an item. The Commerce.js provides custom cart and checkout experiences with the integration of Stripe Payment API. The internal state of application is managed using react-redux.',
       repoLink: 'https://github.com/ZeeshanNasir16/Laptop-Store',
       techList: [
         'React JS',
@@ -174,12 +192,6 @@ export const projects = {
         'Redux',
         'Stripe API',
       ],
-    },
-    {
-      name: 'React Colors App',
-      desc: 'A clone of sites like Flat UI Colors or Material UI colors.',
-      repoLink: 'https://github.com/ZeeshanNasir16/React-Color-Project',
-      techList: ['React JS', 'Material-UI'],
     },
   ],
 };

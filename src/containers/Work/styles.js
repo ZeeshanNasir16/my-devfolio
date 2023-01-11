@@ -248,17 +248,28 @@ export const PersProjects = styled.ul`
         display: flex;
         align-items: flex-end;
         flex-grow: 1;
+        gap: 4px;
         flex-wrap: wrap;
         padding: 0px;
         margin: 20px 0px 0px;
         list-style: none;
         li {
-          font-family: var(--font-mono);
+          font-family: var(--font-base);
           font-size: var(--fz-xs);
-          line-height: 1.75;
+          font-weight: 600;
+          line-height: 1.5;
+          position: relative;
         }
         li:not(:last-of-type) {
           margin-right: 15px;
+          &:after {
+            content: '';
+            position: absolute;
+            right: -11px;
+            width: 2px;
+            height: 90%;
+            background-color: var(--dark-gray-color);
+          }
         }
       }
     }
