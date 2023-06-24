@@ -96,7 +96,6 @@ export const experience = [
     // companylogo: '/img/icons/common/google.svg',
     date: 'Jul 2021 – Present',
     descBullets: [
-      'Writing application interface codes using JavaScript following react.js workflows',
       'Developing and implementing highly-responsive user interface components using React concepts as well as translating designs to interactive, pixel perfect and responsive sites',
     ],
   },
