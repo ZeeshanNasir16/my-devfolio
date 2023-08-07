@@ -114,11 +114,7 @@ export const experience = [
     company: 'InterwebBytes ',
 
     date: 'Sep 2020 – Feb 2021',
-    descBullets: [
-      'Writing clean, functional code on the front- and back-end',
-      'Testing and fixing bugs or other coding issues',
-      'Troubleshoot, debug and upgrade an application',
-    ],
+    descBullets: [],
   },
 ];
 
