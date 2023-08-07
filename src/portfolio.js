@@ -83,7 +83,7 @@ export const experience = [
     role: 'Junior Software Engineer',
     company: 'Softoo Ltd',
     companylogo: 'https://softoo.co/images/Softoo-main-logo.svg',
-    date: 'March 2023 – Present',
+    date: 'March 2023 – June 2023',
     descBullets: [
       'Worked on the development of backend applications using Express.js with TypeScript, implementing key functionalities such as security, authentication, error handling, file handling, and payment processes',
       'Gained exposure to modern debugging practices, and effectively used them to troubleshoot complex issues',
@@ -91,10 +91,20 @@ export const experience = [
     ],
   },
   {
-    role: 'Front-end Developer',
-    company: 'Fiverr',
+    role: 'MERN Stack Developer',
+    company: 'BeyondSol',
     // companylogo: '/img/icons/common/google.svg',
-    date: 'Jul 2021 – Present',
+    date: 'Aug 2022 – Present',
+    descBullets: [
+      'Developing and implementing highly-responsive user interface components using React concepts as well as translating designs to interactive, pixel perfect and responsive sites.',
+      'API Integration as well as managing the data in front end codebase.'
+    ],
+  },
+  {
+    role: 'React Developer',
+    company: 'BeyondSol',
+    // companylogo: '/img/icons/common/google.svg',
+    date: 'Jul 2021 – Aug 2022',
     descBullets: [
       'Developing and implementing highly-responsive user interface components using React concepts as well as translating designs to interactive, pixel perfect and responsive sites',
     ],
@@ -170,7 +180,7 @@ export const projects = {
   ],
   personal: [
     {
-      name: 'Task Management App (MERN)',
+      name: 'Task Management App (MERN | TS)',
       desc: 'Kanban application in which project manager create and assigns task to individuals. The User then change the status of task through Kanban Board',
       repoLink: 'https://github.com/ZeeshanNasir16/task-mgt-app-frontend',
       techList: [
