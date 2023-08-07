@@ -86,7 +86,6 @@ export const experience = [
     date: 'March 2023 – June 2023',
     descBullets: [
       'Worked on the development of backend applications using Express.js with TypeScript, implementing key functionalities such as security, authentication, error handling, file handling, and payment processes',
-      'Gained exposure to modern debugging practices, and effectively used them to troubleshoot complex issues',
       'Responsibly worked on implementing good coding practices, ensuring both functionality and security of the application',
     ],
   },
